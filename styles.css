@@ -1,0 +1,141 @@
+/****************************TAG Selectors*******************************/
+
+a{
+color: #11999E;
+text-decoration: none;
+}
+a:hover{
+ color:#3cb0fd;
+}
+body{
+    background-color: #EAF6F6;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', serif;
+    font-size: 5.625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #66BFBF;
+    font-weight: bold;
+    line-height: 1;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: darkgray;
+    border-width: 5px;
+    width: 5%;
+}
+
+/****************************CLASS Selectors*******************************/
+
+.bottom{
+    background-color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+.btm-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #11999E, #11999E);
+    background-image: -ms-linear-gradient(top, #11999E, #11999E);
+    background-image: -o-linear-gradient(top, #11999E, #11999E);
+    background-image: linear-gradient(to bottom, #11999E, #11999E);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.copyright{
+    color: darkgray;
+    font-size: .75em;
+    padding: 10px 0;
+}
+.flat-icons{
+    font-size: small;
+    padding: 10px 20px;
+}
+.footer-link{
+    padding: 10px 20px;
+}
+.hiking-boot{
+    height: 300px;
+    width: 350px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.middle{
+    background-color: #EAF6F6;
+    padding: 0px;
+}
+.myprofile{
+    height: 50px;
+    width: 50px;
+}
+.skill-row{
+    align-content: center;
+    line-height: 1.5;
+    margin: 10px auto 10px auto;
+    text-align: left;
+    width: 50%;
+}
+.title{
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+.top{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+}
+.webdev-icon-left{
+    width: 11%;
+    float: left;
+    padding: 10px 25px 25px 0;
+}
+.webdev-icon-right{
+    width: 11%;
+    float: right;
+    padding: 10px 0 25px 25px;
+}
+/****************************ID Selectors*******************************/
+
